@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>run module &#8212; Flipkart Scraper  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="retrieve module" href="retrieve.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-run">
+<span id="run-module"></span><h1>run module<a class="headerlink" href="#module-run" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="run.My_Spider">
+<em class="property">class </em><code class="descclassname">run.</code><code class="descname">My_Spider</code><span class="sig-paren">(</span><em>name=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#run.My_Spider" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">scrapy.spiders.Spider</span></code></p>
+<p>A Class to represent the spider</p>
+<dl class="staticmethod">
+<dt id="run.My_Spider.check_bounds">
+<em class="property">static </em><code class="descname">check_bounds</code><span class="sig-paren">(</span><em>response</em><span class="sig-paren">)</span><a class="headerlink" href="#run.My_Spider.check_bounds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to check whether a valid number of laptops has been entered or not.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="run.My_Spider.count">
+<code class="descname">count</code><em class="property"> = 400</em><a class="headerlink" href="#run.My_Spider.count" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="run.My_Spider.css_selector">
+<code class="descname">css_selector</code><em class="property"> = 'a._3fVaIS:nth-child(12)'</em><a class="headerlink" href="#run.My_Spider.css_selector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="run.My_Spider.name">
+<code class="descname">name</code><em class="property"> = 'spider_final'</em><a class="headerlink" href="#run.My_Spider.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="run.My_Spider.page_number">
+<code class="descname">page_number</code><em class="property"> = 17</em><a class="headerlink" href="#run.My_Spider.page_number" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="run.My_Spider.parse">
+<code class="descname">parse</code><span class="sig-paren">(</span><em>response</em><span class="sig-paren">)</span><a class="headerlink" href="#run.My_Spider.parse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to parse the data on the webpage.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="run.My_Spider.start_urls">
+<code class="descname">start_urls</code><em class="property"> = ['https://www.flipkart.com/search?q=laptops&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off']</em><a class="headerlink" href="#run.My_Spider.start_urls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="run.main">
+<code class="descclassname">run.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#run.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>The Main Function</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Flipkart Scraper</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="retrieve.html">retrieve module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">run module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="retrieve.html" title="previous chapter">retrieve module</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Aviral Agarwal.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/run.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

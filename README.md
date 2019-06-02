@@ -10,7 +10,7 @@ python3 run.py 'no. of laptops to be scraped' 'name of file used to store data'
 in the terminal to run the script.
 The number of laptops entered must be between 0 and the total number of laptops listed on the website.
 
-To display the data scraped from the website use the retrieve.py script 
+To display the data scraped from the website use the retrieve.py script.
 Type -
 
 python3 retrieve.py 'file in which data is stored'.
